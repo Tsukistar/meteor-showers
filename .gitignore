@@ -1,0 +1,29 @@
+# Node.js 相关
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json  # 如果你使用 npm，可以忽略这个文件。如果用 yarn，则保留
+
+# TypeScript 构建输出
+dist/
+*.js  # 忽略编译后的 JS 文件（假设它们都在 dist/ 下）
+*.js.map
+*.d.ts  # 如果你不想提交生成的声明文件
+
+# 临时文件
+*.log
+*.tmp
+
+# 编辑器相关
+.vscode/
+.idea/
+*.sublime-workspace
+
+# macOS 系统文件
+.DS_Store
+
+# 测试覆盖率报告（如果以后添加测试）
+coverage/
+
+# 环境变量文件
+.env

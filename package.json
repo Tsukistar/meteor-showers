@@ -1,0 +1,21 @@
+{
+  "name": "meteor-shower",
+  "version": "1.0.0",
+  "description": "A fullscreen meteor shower effect",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "meteor",
+    "animation",
+    "effect"
+  ],
+  "author": "tsukistar",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
